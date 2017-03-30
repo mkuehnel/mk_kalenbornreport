@@ -3,8 +3,8 @@
 #
 page {
     uid {
-        kalenbornreport = 249
-        kalenbornreportData = 255
+        kalenbornreport =
+        kalenbornreportData =
     }
 }
 #

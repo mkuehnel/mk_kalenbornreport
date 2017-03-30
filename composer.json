@@ -8,11 +8,6 @@
     "email": "kontakt@moritz-kuehnel.de"
   }],
   "repositories": [{
-    "type": "composer",
-    "url": "https://composer.typo3.org/"
-  }, {
-    "type": "vcs",
-    "url": "git@github.com:mkuehnel/mk_kalenbornreport.git"
   }],
   "minimum-stability": "dev",
   "require": {
