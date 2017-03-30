@@ -1,0 +1,19 @@
+{
+  "name": "mkuehnel/mk-kalenbornreport",
+  "description": "Configuration of news extension for kalenborn",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "authors": [{
+    "name": "Moritz Kühnel"
+  }],
+  "repositories": [{
+  }],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Mkuehnel\\MkKalenbornreport\\": "Classes"
+    }
+  }
+}
