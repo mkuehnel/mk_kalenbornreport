@@ -7,7 +7,7 @@
             <f:if condition="{iter.index} > 0">
                 <div class="outer col-sm-6">
                     <f:if condition="{mediaElement.originalResource.type} == 2">
-                        <f:render partial="Detail/FalMediaImage"
+                        <f:render partial="Detail/FalMediaImageCrop"
                                   arguments="{mediaElement: mediaElement, settings:settings}"/>
                     </f:if>
                     <f:if condition="{mediaElement.originalResource.type} == 4">

@@ -100,6 +100,9 @@ lib.kbreportListAndDetailPlugin.20 {
         settings.detail.checkPidOfNewsRecord = 0
         settings.detail.media.image.width = 350
         settings.detail.media.image.height = 200c
+        settings.detail.media.image.maxWidth = 400
+        settings.detail.media.image.maxHeight = 600
+
     }
 
     lib.kbreportLatestSliderPlugin >

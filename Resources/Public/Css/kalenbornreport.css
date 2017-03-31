@@ -40,4 +40,7 @@
 .kalenbornreport-single .article .ce-textpic {
     margin-bottom: 0em;
 }
-
+p.news-img-caption {
+    font-size: 0.8em;
+    font-weight: bold;
+}
