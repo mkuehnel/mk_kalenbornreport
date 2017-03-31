@@ -16,6 +16,10 @@
 				<source>Category</source>
 				<target state="translated">Kategorie</target>
 			</trans-unit>
+			<trans-unit id="kbreport.moreLink" xml:space="preserve">
+				<source>read more</source>
+				<target state="translated">weiter lesen</target>
+			</trans-unit>
         </body>
     </file>
 </xliff>

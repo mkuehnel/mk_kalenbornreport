@@ -34,7 +34,9 @@
 .kalenbornreport-list-view h3 {
     text-align: left;
 }
-
+.kalenbornreport-list-view .article {
+    padding-bottom: 20px;
+}
 .kalenbornreport-single .article .ce-textpic {
     margin-bottom: 0em;
 }
