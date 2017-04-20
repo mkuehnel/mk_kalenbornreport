@@ -8,9 +8,11 @@
 -->
 
 <f:section name="content">
+    <f:render partial="Category/Items" arguments="{categories:newsItem.categories, settings:settings}" />
 	<!--TYPO3SEARCH_end-->
 	<f:if condition="{news}">
 		<f:then>
+
             <f:if condition="{settings.isSlider}">
 
                 <f:then>

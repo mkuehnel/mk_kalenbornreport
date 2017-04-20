@@ -3,6 +3,18 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:47:10Z" product-name="news">
 		<header/>
 		<body>
+			<trans-unit id="kbreport.listLink" xml:space="preserve">
+				<source>View all</source>
+			</trans-unit>
+			<trans-unit id="kbreport.catHeader" xml:space="preserve">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="kbreport.listHeader" xml:space="preserve">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="kbreport.moreLink" xml:space="preserve">
+				<source>read more</source>
+			</trans-unit>
 			<trans-unit id="search-text" xml:space="preserve">
 				<source>There are %1$s results for &quot;%2$s&quot;.</source>
 			</trans-unit>

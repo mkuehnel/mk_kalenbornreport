@@ -9,7 +9,6 @@ lib.kbreportPlugin {
     extensionName = News
     pluginName = Pi1
     vendorName = GeorgRinger
-
     switchableControllerActions.News.1 = list
     settings < plugin.tx_news.settings
     settings {
@@ -109,11 +108,11 @@ lib.kbreportListAndDetailPlugin.20 {
 [global]
 
 lib.pageUid.kalenbornreport = TEXT
-lib.pageUid.news.value = {$page.uid.kalenbornreport}
+lib.pageUid.kalenbornreport.value = {$page.uid.kalenbornreport}
 
 # Category View
 [globalVar = GP:tx_news_pi1|overwriteDemand|categories > 0]
-    # Show Category Title
+
     lib.kbreportListAndDetailPlugin.10 {
         data = GP:tx_news_pi1|overwriteDemand|categories
         wrap = <div class="kbreport-header"><h3 class="kbreport-title">{LLL:EXT:mk_kalenbornreport/Resources/Private/Language/locallang.xlf:kbreport.listHeader}: {DB:sys_category:|:title}</h3></div>
@@ -121,5 +120,5 @@ lib.pageUid.news.value = {$page.uid.kalenbornreport}
     }
 
 
-
+[global]
 

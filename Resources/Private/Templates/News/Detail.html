@@ -55,9 +55,6 @@
 				<p>
 
 
-					<f:if condition="{newsItem.categories}">
-						<f:render partial="Category/Items" arguments="{categories:newsItem.categories, settings:settings}" />
-					</f:if>
 
 					<f:if condition="{newsItem.tags}">
 						<!-- Tags -->
@@ -80,13 +77,6 @@
 				<h1 itemprop="headline">{newsItem.title}</h1>
 			</div>
 
-
-			<f:if condition="{newsItem.teaser}">
-				<!-- teaser -->
-				<div class="teaser-text" itemprop="description">
-					<f:format.html>{newsItem.teaser}</f:format.html>
-				</div>
-			</f:if>
 
 			<f:if condition="{newsItem.contentElements}">
 				<!-- content elements -->

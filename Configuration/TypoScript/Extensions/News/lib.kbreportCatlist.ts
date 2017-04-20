@@ -8,9 +8,6 @@ lib.kbreportCatlist {
    extensionName = News
    pluginName = Pi1
    vendorName = GeorgRinger
-
-
-   #settings < plugin.tx_news.settings
    settings {
       startingpoint = {$page.uid.kalenbornreportData}
       defaultDetailPid = {$page.uid.kalenbornreport}
